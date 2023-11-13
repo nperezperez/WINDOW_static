@@ -23,8 +23,8 @@ def batch():
 
     #vals_rad = np.linspace(90,150,13)
     vals_rad = [90.0, 95.0, 100.0, 105.0, 215 / 2, 110.0, 222 / 2, 225 / 2, 227 / 2, 115.0, 120.0, 125.0, 130.0,135.0, 140.0, 145.0, 150.0]
-    #vals_rad = [215/2, 222/2, 225/2, 227/2]
-    #vals_rad = [200/2]
+    #vals_rad = [285/2,295/2]
+    # vals_rad = [235/2]
 
 
     for val in vals_rad:
@@ -62,8 +62,8 @@ def singlecase():
 ## RUN ##
 
 
-# batch()
-singlecase()
+batch()
+# singlecase()
 
 ##### Create a lookup table for Diameter vs Number of turbines ####
 
